@@ -12,7 +12,7 @@ public class Ball : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(Random.Range(-1f,1f),1f);
+        rb.velocity = Vector2.up; //new Vector2(Random.Range(-1f,1f),1f);
     }
 
     void Update()

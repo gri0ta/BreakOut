@@ -15,6 +15,13 @@ public class GameManager : MonoBehaviour
     public TMP_Text hpText;
     public TMP_Text scoreText;
 
+    public AudioSource source;
+    public AudioClip winSound;
+
+    public void Start()
+    {
+        source = GetComponent<AudioSource>();
+    }
     public void Update()
     {
         hpText.text = "Lives: " + lives;
@@ -25,6 +32,8 @@ public class GameManager : MonoBehaviour
         if (count<=0)
         {
             winScreen.SetActive(true);
+            source.clip = winSound;
+            source.Play();
             hpText.enabled= false;
             scoreText.enabled= false;
             enabled= false;
