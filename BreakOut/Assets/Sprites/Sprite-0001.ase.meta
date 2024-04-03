@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25752f06632c4a9429993afb5bb5569e
+guid: 2771b75d34278644a98aaa38f697b9fe
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -118,44 +118,16 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  animatedSpriteImportData:
-  - name: Box
-    originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 32
-      height: 16
-    spriteID: 91a3c4913735ed244b1767338d4863aa
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+  animatedSpriteImportData: []
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -468437955
-    name: Box
+    guid: -572921211
+    name: Sprite-0001
     layerFlags: 0
     layerType: 0
     blendMode: 0
-    cells:
-    - name: Box
-      frameIndex: 0
-      cellRect:
-        x: 0
-        y: 0
-        width: 32
-        height: 16
-      spriteId: 91a3c4913735ed244b1767338d4863aa
+    cells: []
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -209,4 +181,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 16}
+  canvasSize: {x: 160, y: 80}

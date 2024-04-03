@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 25752f06632c4a9429993afb5bb5569e
+guid: 1663bf69e4908734d9db2b8be5f57ed6
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -32,7 +32,7 @@ ScriptedImporter:
     sRGBTexture: 1
     spriteMode: 2
     spriteExtrude: 1
-    spriteMeshType: 1
+    spriteMeshType: 0
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
     spritePixelsToUnits: 16
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638471613818738031
+  platformSettingsDirtyTick: 638477696564034568
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Box
+  - name: win
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.50666666, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 32
-      height: 16
-    spriteID: 91a3c4913735ed244b1767338d4863aa
+      width: 75
+      height: 38
+    spriteID: 2c5cba1888e26d24791b19ba08a322ce
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,20 +142,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -468437955
-    name: Box
+    guid: 1756432792
+    name: win
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Box
+    - name: win
       frameIndex: 0
       cellRect:
-        x: 0
+        x: 2
         y: 0
-        width: 32
-        height: 16
-      spriteId: 91a3c4913735ed244b1767338d4863aa
+        width: 75
+        height: 38
+      spriteId: 2c5cba1888e26d24791b19ba08a322ce
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -209,4 +209,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 32, y: 16}
+  canvasSize: {x: 80, y: 40}
