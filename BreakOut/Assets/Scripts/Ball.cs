@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class Ball : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class Ball : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         var brick = other.gameObject.GetComponent<Brick>();
+        transform.DOScale(Vector3.one, 0.5f).ChangeStartValue(Vector3.zero).SetEase(Ease.OutExpo);
 
         if (brick)
         {
